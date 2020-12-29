@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Classroom Peer Review</title>
+		<link rel="stylesheet" href="popup.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" crossorigin="anonymous">
+	</head>
+	<body>
+        <div class="modal-header">
+            <h1 class="logo">
+                <img src="images/logo.png" alt="Classroom Peer Review Launcher" class="logo-icon"> Classroom Peer Review <span class="version">(1.0.0)</span>
+            </h1>
+        </div>
+        <div class="modal-content">
+            <p>Automatic assignment of peer's assignment to students.</p>
+            <a id="redistribute">
+            <!-- <a id="redistribute" href="https://css-tricks.com/snippets/jquery/make-entire-div-clickable/" target="_blank"> -->
+                <div class="button">
+                    <p>Redistribute Assignment</p>
+                </div>
+            </a>
+            <p>    </p>
+            <a id="feedback" href="mailto:154757929sherry@gmail.com?Subject=Feedback%20About%20Classroom%20Peer%20Review">
+                <div class="button">
+                    <p>Send Feedback</p>
+                    <!-- <a  id="feedback" href="mailto:154757929sherry@gmail.com?Subject=Feedback%20About%20Classroom%20Peer%20Review" target="_blank" data-i18n="send_feedback">Send Feedback</a> -->
+                </div>
+            </a>
+        </div>
+        <table class="submission-table" id=links>
+            <tr>
+              <th><input type=checkbox checked id=toggle_all></th>
+              <th align=left>Select All</th>
+            </tr>
+          </table>
+		<script id="script" src="popup.js"></script>
+	</body>
+</html>
