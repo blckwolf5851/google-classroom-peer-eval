@@ -4,7 +4,7 @@ Build collaborative online environment with the additional feature.
 This extension works well with the additional feature for Hypatia Desktop built, can be found in this repo (https://github.com/blckwolf5851/hypatia-peer-eval)
 
 ## Install the extension
-
+Extension currently under review, link to install will beupdated here once approved.
 
 ## How to use the extension
 Go to the all submission page of an assignment (where majority of the student turned in their work)
